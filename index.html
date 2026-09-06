@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DV Maestro — MDU Internet for Multifamily Portfolios | Datavalet</title>
+  <meta name="description" content="Transform multifamily properties with a premium connectivity solution that enhances resident experience, generates revenue, and simplifies network management.">
+  <meta property="og:title" content="DV Maestro — MDU Internet for Multifamily Portfolios">
+  <meta property="og:description" content="Transform multifamily properties with a premium connectivity solution that enhances resident experience, generates revenue, and simplifies network management.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================ NAV ============================ -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="#" aria-label="Datavalet — home">
+      <img src="assets/datavalet-logo.png" alt="Datavalet">
+    </a>
+
+    <ul class="nav__links">
+      <li class="nav__item" data-dropdown>
+        <button class="nav__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+          Products
+          <svg class="nav__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <!-- PLACEHOLDER: see README, dropdown contents were not in the capture -->
+        <div class="nav__panel" hidden>
+          <a class="nav__panel-link" href="#">DV Maestro<span>Managed connectivity for multifamily</span></a>
+          <a class="nav__panel-link" href="#">Managed Wi-Fi<span>Property-wide wireless networks</span></a>
+          <a class="nav__panel-link" href="#">Network Analytics<span>Usage and performance insight</span></a>
+        </div>
+      </li>
+
+      <li class="nav__item" data-dropdown>
+        <button class="nav__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+          Services
+          <svg class="nav__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav__panel" hidden>
+          <a class="nav__panel-link" href="#">Deployment<span>Design, install and commission</span></a>
+          <a class="nav__panel-link" href="#">Monitoring<span>Continuous network oversight</span></a>
+          <a class="nav__panel-link" href="#">Resident support<span>24/7 helpdesk</span></a>
+        </div>
+      </li>
+
+      <li class="nav__item" data-dropdown>
+        <button class="nav__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+          Markets
+          <svg class="nav__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav__panel" hidden>
+          <a class="nav__panel-link" href="#">Multifamily<span>Apartments and condominiums</span></a>
+          <a class="nav__panel-link" href="#">Hospitality<span>Hotels and resorts</span></a>
+          <a class="nav__panel-link" href="#">Retail<span>Stores and shopping centres</span></a>
+        </div>
+      </li>
+
+      <li class="nav__item"><a class="nav__link" href="#">Partners</a></li>
+
+      <li class="nav__item" data-dropdown>
+        <button class="nav__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+          Company
+          <svg class="nav__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav__panel" hidden>
+          <a class="nav__panel-link" href="#">About us<span>Who we are</span></a>
+          <a class="nav__panel-link" href="#">Careers<span>Open positions</span></a>
+          <a class="nav__panel-link" href="#">Newsroom<span>Announcements and press</span></a>
+        </div>
+      </li>
+
+      <li class="nav__item" data-dropdown>
+        <button class="nav__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+          Resources
+          <svg class="nav__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2.5 4.5l3.5 3.5 3.5-3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav__panel" hidden>
+          <a class="nav__panel-link" href="#">Case studies<span>Customer results</span></a>
+          <a class="nav__panel-link" href="#">Guides<span>Practical how-tos</span></a>
+          <a class="nav__panel-link" href="#">Support<span>Documentation and contact</span></a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="nav__actions">
+      <button class="nav__lang" type="button">EN | FR</button>
+      <a class="btn btn--sm" href="#demo">Contact Us</a>
+    </div>
+
+    <!-- ADDED: the captured design had no mobile navigation at all -->
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav__mobile" id="mobile-menu" hidden>
+    <a href="#">Products</a>
+    <a href="#">Services</a>
+    <a href="#">Markets</a>
+    <a href="#">Partners</a>
+    <a href="#">Company</a>
+    <a href="#">Resources</a>
+    <div class="nav__mobile-actions">
+      <button class="nav__lang" type="button">EN | FR</button>
+      <a class="btn btn--sm" href="#demo">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__split">
+    <div class="hero__content">
+      <div class="hero__net" aria-hidden="true">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+        <line x1="15" y1="20" x2="45" y2="10"/>
+        <line x1="45" y1="10" x2="75" y2="25"/>
+        <line x1="75" y1="25" x2="90" y2="15"/>
+        <line x1="15" y1="20" x2="25" y2="50"/>
+        <line x1="45" y1="10" x2="60" y2="45"/>
+        <line x1="75" y1="25" x2="60" y2="45"/>
+        <line x1="90" y1="15" x2="85" y2="55"/>
+        <line x1="25" y1="50" x2="60" y2="45"/>
+        <line x1="60" y1="45" x2="85" y2="55"/>
+        <line x1="25" y1="50" x2="10" y2="75"/>
+        <line x1="10" y1="75" x2="40" y2="70"/>
+        <line x1="40" y1="70" x2="70" y2="80"/>
+        <line x1="70" y1="80" x2="95" y2="70"/>
+        <line x1="85" y1="55" x2="95" y2="70"/>
+        <line x1="40" y1="70" x2="50" y2="92"/>
+        <line x1="70" y1="80" x2="50" y2="92"/>
+        <line x1="10" y1="75" x2="20" y2="88"/>
+        <line x1="50" y1="92" x2="20" y2="88"/>
+        <line x1="95" y1="70" x2="80" y2="88"/>
+        <line x1="50" y1="92" x2="80" y2="88"/>
+        <circle class="node" cx="15" cy="20" r=".9" fill="#0054A6" style="--dur:2s;--delay:0s"/>
+        <circle class="node" cx="45" cy="10" r=".9" fill="#00A3E0" style="--dur:2.7s;--delay:0.3s"/>
+        <circle class="node" cx="75" cy="25" r=".9" fill="#39B54A" style="--dur:3.4s;--delay:0.6s"/>
+        <circle class="node" cx="90" cy="15" r=".9" fill="#0054A6" style="--dur:4.1s;--delay:0.9s"/>
+        <circle class="node" cx="25" cy="50" r=".9" fill="#00A3E0" style="--dur:2s;--delay:1.2s"/>
+        <circle class="node" cx="60" cy="45" r=".9" fill="#0054A6" style="--dur:2.7s;--delay:1.5s"/>
+        <circle class="node" cx="85" cy="55" r=".9" fill="#39B54A" style="--dur:3.4s;--delay:1.8s"/>
+        <circle class="node" cx="10" cy="75" r=".9" fill="#00A3E0" style="--dur:4.1s;--delay:0.1s"/>
+        <circle class="node" cx="40" cy="70" r=".9" fill="#0054A6" style="--dur:2s;--delay:0.4s"/>
+        <circle class="node" cx="70" cy="80" r=".9" fill="#39B54A" style="--dur:2.7s;--delay:0.7s"/>
+        <circle class="node" cx="95" cy="70" r=".9" fill="#00A3E0" style="--dur:3.4s;--delay:1s"/>
+        <circle class="node" cx="50" cy="92" r=".9" fill="#0054A6" style="--dur:4.1s;--delay:1.3s"/>
+        <circle class="node" cx="20" cy="88" r=".9" fill="#39B54A" style="--dur:2s;--delay:1.6s"/>
+        <circle class="node" cx="80" cy="88" r=".9" fill="#00A3E0" style="--dur:2.7s;--delay:1.9s"/>
+        </svg>
+      </div>
+      <div class="hero__scrim" aria-hidden="true"></div>
+
+      <div class="hero__body">
+        <p class="hero__eyebrow">MDU Internet for Multifamily Portfolios</p>
+        <h1 class="hero__title">Better resident experience. New ancillary revenue. One managed network.</h1>
+        <p class="hero__lede">Deliver secure, reliable Wi-Fi property-wide and turn connectivity into a new revenue stream.</p>
+
+        <div class="hero__cta">
+          <a class="btn" href="#demo">Book a Call</a>
+          <p class="hero__cta-note">20 minutes with an MDU specialist</p>
+        </div>
+
+        <div class="hero__stat">
+          <div class="hero__stat-row">
+            <span class="hero__stat-value">87%</span>
+            <span class="hero__stat-text">of renters say having internet available immediately upon move-in is very important or absolutely essential.</span>
+          </div>
+          <p class="hero__source">2024 NMHC / Grace Hill Renter Preferences Survey</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__media">
+      <img src="assets/hero-property.png" alt="Multifamily property">
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BENEFITS ============================ -->
+<section class="benefits">
+  <div class="container">
+    <div class="benefits__grid">
+
+      <article class="benefit">
+        <div class="benefit__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M16 26a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" fill="#00A3E0"/>
+            <path d="M10.34 20.34a8 8 0 0 1 11.32 0l-1.42 1.42a6 6 0 0 0-8.48 0l-1.42-1.42Z" fill="#00A3E0"/>
+            <path d="M6.1 16.1a14 14 0 0 1 19.8 0l-1.42 1.42a12 12 0 0 0-16.96 0L6.1 16.1Z" fill="#00A3E0"/>
+            <path d="M2 11.93A20 20 0 0 1 30 11.93l-1.42 1.42a18 18 0 0 0-25.16 0L2 11.93Z" fill="#00A3E0"/>
+          </svg>
+        </div>
+        <h3 class="benefit__title">Elevate the resident experience</h3>
+        <p class="benefit__body">Give residents secure, reliable Wi-Fi across their unit and shared spaces, from move-in onward.</p>
+        <div class="benefit__foot"><p>A private, encrypted network for every unit, on one network name</p></div>
+      </article>
+
+      <article class="benefit">
+        <div class="benefit__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="4" width="20" height="25" rx="1.5" fill="#39B54A"/>
+            <rect x="9" y="8" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="15" y="8" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="19" y="8" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="9" y="14" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="15" y="14" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="19" y="14" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="9" y="20" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="15" y="20" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="19" y="20" width="4" height="3" rx="0.5" fill="white"/>
+            <rect x="12" y="24" width="8" height="5" rx="0.5" fill="white" opacity="0.5"/>
+          </svg>
+        </div>
+        <h3 class="benefit__title">Strengthen the property offering</h3>
+        <p class="benefit__body">Use reliable connectivity as a meaningful amenity that can help differentiate your properties and support leasing.</p>
+        <div class="benefit__foot"><p>Coverage in the unit, the hallway, the gym and the garage</p></div>
+      </article>
+
+      <article class="benefit">
+        <div class="benefit__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M26 16a10 10 0 1 1-2.93-7.07" stroke="#0054A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="23,5 23,9 27,9" stroke="#0054A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="16" y1="10" x2="16" y2="22" stroke="#0054A6" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M19.5 12.5C19.5 11.4 17.9 10.5 16 10.5C14.1 10.5 12.5 11.4 12.5 12.75C12.5 14.1 14 14.75 16 15.2C18 15.65 19.5 16.4 19.5 17.75C19.5 19.1 17.9 20 16 20C14.1 20 12.5 19.1 12.5 17.75" stroke="#0054A6" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="benefit__title">Create new revenue opportunities</h3>
+        <p class="benefit__body">Offer included service, tiered plans, premium speeds, or bundled services to create an additional revenue stream.</p>
+        <div class="benefit__foot"><p>Base plan included, faster tiers sold on top</p></div>
+      </article>
+
+      <article class="benefit">
+        <div class="benefit__icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="4" width="11" height="11" rx="2" fill="#FDB913"/>
+            <rect x="17" y="4" width="11" height="11" rx="2" fill="#FDB913"/>
+            <rect x="4" y="17" width="11" height="11" rx="2" fill="#FDB913"/>
+            <rect x="17" y="17" width="11" height="11" rx="2" fill="#FDB913"/>
+          </svg>
+        </div>
+        <h3 class="benefit__title">Streamline network operations</h3>
+        <p class="benefit__body">Centralize connectivity management, monitoring, and support across properties and units.</p>
+        <div class="benefit__foot"><p>Residents call our helpdesk, not your leasing office</p></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ THE OFFER ============================ -->
+<section class="offer">
+  <div class="container">
+    <div class="offer__intro">
+      <p class="eyebrow eyebrow--cyan">The Offer</p>
+      <h2 class="section-title">A managed network, without the operational burden.</h2>
+      <p class="offer__lede">DV Maestro brings property-wide connectivity, network management, monitoring, and resident support into one managed service. Your team gets a consistent resident experience without taking on the day-to-day work of operating the network.</p>
+    </div>
+
+    <div class="offer__grid">
+      <div class="offer__cell">
+        <svg class="offer__check" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5L6.5 12L13 5" stroke="#0054A6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <p class="offer__cell-title">Network deployment</p>
+          <p class="offer__cell-desc">Set up connectivity across the property</p>
+        </div>
+      </div>
+      <div class="offer__cell">
+        <svg class="offer__check" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5L6.5 12L13 5" stroke="#0054A6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <p class="offer__cell-title">Centralized management</p>
+          <p class="offer__cell-desc">Manage network operations centrally</p>
+        </div>
+      </div>
+      <div class="offer__cell">
+        <svg class="offer__check" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5L6.5 12L13 5" stroke="#0054A6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <p class="offer__cell-title">Performance monitoring</p>
+          <p class="offer__cell-desc">Monitor network performance continuously</p>
+        </div>
+      </div>
+      <div class="offer__cell">
+        <svg class="offer__check" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8.5L6.5 12L13 5" stroke="#0054A6" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <p class="offer__cell-title">Resident support</p>
+          <p class="offer__cell-desc">Provide 24/7 assistance when residents need help</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ REVENUE CALCULATOR ============================ -->
+<section class="revenue">
+  <div class="container">
+    <p class="eyebrow eyebrow--cyan">Revenue opportunity</p>
+    <h2 class="section-title section-title--mb32">See what connectivity could mean for one property.</h2>
+
+    <div class="revenue__grid" id="calculator">
+      <div class="calc">
+        <p class="calc__kicker">Illustrative example</p>
+
+        <div class="calc__control">
+          <div class="calc__head">
+            <label class="calc__label" for="units">Number of units</label>
+            <span class="calc__value" data-out="units" style="color:var(--dv-cyan)">200</span>
+          </div>
+          <input class="calc__range" id="units" type="range" min="50" max="800" step="50" value="200"
+                 style="--fill:var(--dv-cyan)" data-input="units">
+          <div class="calc__bounds"><span>50</span><span>800</span></div>
+        </div>
+
+        <div class="calc__control">
+          <div class="calc__head">
+            <label class="calc__label" for="adoption">Adoption rate</label>
+            <span class="calc__value" data-out="adoption" style="color:var(--dv-green)">60%</span>
+          </div>
+          <input class="calc__range" id="adoption" type="range" min="10" max="100" step="5" value="60"
+                 style="--fill:var(--dv-green)" data-input="adoption">
+          <div class="calc__bounds"><span>10%</span><span>100%</span></div>
+        </div>
+
+        <div class="calc__control">
+          <div class="calc__head">
+            <label class="calc__label" for="price">Monthly price per unit</label>
+            <span class="calc__value" data-out="price" style="color:var(--dv-blue)">$20</span>
+          </div>
+          <input class="calc__range" id="price" type="range" min="10" max="60" step="5" value="20"
+                 style="--fill:var(--dv-blue)" data-input="price">
+          <div class="calc__bounds"><span>$10</span><span>$60</span></div>
+        </div>
+      </div>
+
+      <div class="result">
+        <p class="result__kicker">Potential annual gross revenue</p>
+        <p class="result__big" data-out="annualBig" aria-live="polite">$28,800</p>
+        <p class="result__formula" data-out="formula">200 units × 60% adoption × $20/mo × 12</p>
+
+        <div class="result__rows">
+          <div class="result__row"><span>Monthly revenue</span><span data-out="monthly">$2,400</span></div>
+          <div class="result__row"><span>Quarterly revenue</span><span data-out="quarterly">$7,200</span></div>
+          <div class="result__row result__row--strong"><span>Annual revenue</span><span data-out="annual">$28,800</span></div>
+        </div>
+
+        <p class="result__disclaimer">Illustrative only. Actual revenue depends on property size, adoption, pricing, connectivity model, and operating structure. Not a Datavalet performance claim.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOR IT TEAMS ============================ -->
+<section class="tech">
+  <div class="container">
+    <div class="tech__grid">
+      <div class="tech__copy">
+        <p class="eyebrow eyebrow--slate">For IT and network teams</p>
+        <h3 class="tech__title">Bringing your network lead into the conversation?</h3>
+        <p class="tech__body">Every resident gets a genuinely separate network, not a shared one, using per-unit VLANs and unique pre-shared keys. One network name covers the entire property, and move-ins activate through your PMS.</p>
+        <div class="tech__cta"><a class="btn" href="#demo">Talk to an expert</a></div>
+      </div>
+      <div class="tech__media">
+        <img src="assets/network-equipment.png" alt="Network equipment">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="cta" id="demo">
+  <div class="container container--center">
+    <p class="eyebrow eyebrow--cyan eyebrow--wide">DV Maestro</p>
+    <h2 class="cta__title">Make connectivity a property advantage.</h2>
+    <p class="cta__lede">See how DV Maestro can create value across your portfolio.</p>
+    <a class="btn btn--lg" href="mailto:maestro@datavalet.com">Book a Call</a>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <img class="footer__logo" src="assets/datavalet-logo.png" alt="Datavalet">
+    <nav class="footer__links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Contact</a>
+    </nav>
+    <p class="footer__copy">© 2026 Datavalet Technologies</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
